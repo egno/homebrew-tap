@@ -1,6 +1,6 @@
 cask "foci" do
-  version "0.2.0"
-  sha256 "5ef288d4a6781e2683eeffe7653942fed30e24ece0092dc7d9a63bb486b4b5c8"
+  version "0.2.1"
+  sha256 "6fa4570e65379113c57183bcda6e6039bab53d3c57c1dc89b18e5a05289b2002"
 
   url "https://github.com/egno/foci/releases/download/v#{version}/Foci-#{version}.dmg"
   name "Foci"

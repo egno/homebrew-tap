@@ -12,14 +12,14 @@ cask "foci" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Foci.app"
   binary "#{appdir}/Foci.app/Contents/MacOS/foci"
 
   # Not notarized: clear the quarantine flag so macOS opens it.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Foci.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Foci.app"]
   end
 
   # Foci puts every parked window back on screen when it quits.

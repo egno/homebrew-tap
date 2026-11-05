@@ -1,6 +1,6 @@
 cask "progradio" do
-  version "1.1.0"
-  sha256 "f2efe458827b72e8dc60dd9943006f544963dd59e952e106fb8a969fbec3100a"
+  version "1.1.1"
+  sha256 "20011369301317ef9fb3ff42b3a08275123512f6df782da142c46503a76b77b3"
 
   url "https://github.com/egno/progradio/releases/download/v#{version}/ProgRadioMenuBar-#{version}.dmg"
   name "Prog Radio Menu Bar"

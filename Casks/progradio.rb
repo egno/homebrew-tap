@@ -1,9 +1,9 @@
 cask "progradio" do
-  version "1.0.0"
-  sha256 "f60d860556b5cef3970e475e23da17946bb7bef0069439577478a5af31e36e18"
+  version "1.1.0"
+  sha256 "f2efe458827b72e8dc60dd9943006f544963dd59e952e106fb8a969fbec3100a"
 
-  url "https://github.com/egno/progradio/releases/download/v#{version}/ProgRadio-#{version}.dmg"
-  name "Prog Radio"
+  url "https://github.com/egno/progradio/releases/download/v#{version}/ProgRadioMenuBar-#{version}.dmg"
+  name "Prog Radio Menu Bar"
   desc "Menu bar player for Prog Radio with widgets and a Control Center control"
   homepage "https://github.com/egno/progradio"
 
@@ -14,11 +14,11 @@ cask "progradio" do
 
   depends_on macos: :tahoe
 
-  app "ProgRadio.app"
+  app "Prog Radio Menu Bar.app"
 
   # Not notarized: clear the quarantine flag so macOS opens it.
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/ProgRadio.app"]
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Prog Radio Menu Bar.app"]
   end
 
   uninstall quit: "io.github.egno.ProgRadio"

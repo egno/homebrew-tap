@@ -1,6 +1,6 @@
 cask "progradio" do
-  version "1.2.0"
-  sha256 "5ad06d194eaab8b34b161285e45efe38bde0cd5073f3e5d31ed5a3fb9961e178"
+  version "1.3.0"
+  sha256 "0802e8665de15a36ed14029ce55ed6f5375cff39e5589c9c2db6014f70c717b5"
 
   url "https://github.com/egno/progradio/releases/download/v#{version}/ProgRadioMini-#{version}.dmg"
   name "Prog Radio Mini"

@@ -3,12 +3,14 @@
 Homebrew casks by egno.
 
 ```sh
+brew install --cask egno/tap/cans
 brew install --cask egno/tap/foci
 brew install --cask egno/tap/progradio
 ```
 
 | Cask | What |
 |---|---|
+| [`cans`](Casks/cans.rb) | [Cans](https://github.com/egno/cans): unofficial menu bar app for Bose QuietComfort Ultra headphones: battery, modes, EQ |
 | [`foci`](Casks/foci.rb) | [Foci](https://github.com/egno/foci): keyboard-first macOS window manager for working on one project at a time |
 | [`progradio`](Casks/progradio.rb) | [Prog Radio Menu Bar](https://github.com/egno/progradio): unofficial menu bar player for progradio.com with widgets and a Control Center control |
 

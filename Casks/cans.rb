@@ -1,10 +1,10 @@
 cask "cans" do
-  version "0.2.0"
-  sha256 "faa09dd266193882b452444963135c588caedfeb2040267fe3621eb99424d3d4"
+  version "0.3.0"
+  sha256 "1307eb03c2fc3b6c152f849196d4b368a1720be05cf91cab7f45f18514465c13"
 
   url "https://github.com/egno/cans/releases/download/v#{version}/Cans-#{version}.dmg"
   name "Cans"
-  desc "Unofficial menu bar app for Bose QuietComfort Ultra headphones"
+  desc "Unofficial menu bar app for Bose QuietComfort headphones"
   homepage "https://github.com/egno/cans"
 
   livecheck do

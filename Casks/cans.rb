@@ -1,6 +1,6 @@
 cask "cans" do
-  version "0.3.0"
-  sha256 "1307eb03c2fc3b6c152f849196d4b368a1720be05cf91cab7f45f18514465c13"
+  version "0.4.0"
+  sha256 "2d0f4bd32d621c9401ddbbbc9d8e3f3f26ad64c96edd57c3449ef6883d4192b4"
 
   url "https://github.com/egno/cans/releases/download/v#{version}/Cans-#{version}.dmg"
   name "Cans"

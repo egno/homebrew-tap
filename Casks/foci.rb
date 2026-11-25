@@ -1,6 +1,6 @@
 cask "foci" do
-  version "1.0.3"
-  sha256 "514e9e92855b7c20f38ca255607255630a95513be0dd2ecefc8084942a4b1601"
+  version "1.0.4"
+  sha256 "9220dbae6b07d0719f494562aa76fe6801d6010b5e443afabde0f942fcc591eb"
 
   url "https://github.com/egno/foci/releases/download/v#{version}/Foci-#{version}.dmg"
   name "Foci"
@@ -31,8 +31,9 @@ cask "foci" do
   ]
 
   caveats <<~EOS
-    Foci needs the Accessibility permission (it asks on first start). Release builds are signed ad hoc,
-    so after an upgrade macOS may ask again: remove Foci from System Settings → Privacy & Security →
+    Foci needs the Accessibility permission (it asks on first start). Releases from 1.0.4 on are signed
+    with one certificate, so updates keep it. Upgrading from an older version asks once more: if Foci's
+    switch is on but nothing happens, remove Foci from System Settings → Privacy & Security →
     Accessibility and add it back.
   EOS
 end
